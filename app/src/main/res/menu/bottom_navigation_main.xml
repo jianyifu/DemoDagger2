@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/navigation_bar_home_selector"
+        android:title="@string/text_home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_walfare"
+        android:enabled="true"
+        android:icon="@drawable/navigation_bar_welfare_selector"
+        android:title="@string/text_walfare"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_category"
+        android:enabled="true"
+        android:icon="@drawable/navigation_bar_category_selector"
+        android:title="@string/text_category"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_mine"
+        android:enabled="true"
+        android:icon="@drawable/navigation_bar_my_selector"
+        android:title="@string/text_mine"
+        app:showAsAction="always" />
+</menu>

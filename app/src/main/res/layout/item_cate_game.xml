@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="30dp">
+
+    <ImageView
+        android:id="@+id/iv_game_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="11dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_game_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tv_game_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv_game_icon"
+        android:layout_marginTop="9dp"
+        android:layout_toRightOf="@id/iv_game_icon"
+        android:ellipsize="end"
+        android:maxEms="8"
+        android:maxLines="1"
+        android:text="狗仔游戏狗仔游戏狗仔游戏戏狗仔游戏戏狗仔游戏戏狗仔游戏戏狗仔游戏"
+        android:textColor="#222222"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_game_brief"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_game_name"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_toLeftOf="@id/tv_game_play"
+        android:layout_toRightOf="@id/iv_game_icon"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="官方正版授权，信仰之战一触即发官方正版授权官方正版授权官方正版授权"
+        android:textColor="#aaaaaa"
+        android:textSize="12sp" />
+</RelativeLayout>

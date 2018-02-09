@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GameBoxModified</string>
+    <string name="action_msg">MsgList</string>
+    <string name="action_search">Search</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_home">推荐</string>
+    <string name="text_walfare">福利</string>
+    <string name="text_category">分类</string>
+    <string name="text_mine">我的</string>
+</resources>

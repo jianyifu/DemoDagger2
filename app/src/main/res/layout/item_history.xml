@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="73dp"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="7dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="10.5dp"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:id="@+id/iv_game_icon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"/>
+
+    <TextView
+        android:id="@+id/tv_game_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="9.5dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="楚乔传楚乔传楚乔传楚乔传楚乔传"
+        android:textColor="#222222"
+        android:textSize="12sp" />
+</LinearLayout>
